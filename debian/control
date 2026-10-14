@@ -1,0 +1,13 @@
+Source: ros-lyrical-wuji-hand2-2-description
+Section: misc
+Priority: optional
+Maintainer: "Wuji Technology" <support@wuji.tech>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://wuji.tech
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-wuji-hand2-2-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ros-workspace
+Description: Robot model description package for Wuji Hand 2.2 with URDF, MJCF, and USD assets for simulation and ROS2 visualization.
+ Hand 2.2 is Hand 2.1 plus one tactile-sensor pad link per fingertip. This package provides left and right models without covers.
