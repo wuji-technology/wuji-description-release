@@ -17,8 +17,8 @@ tracks:
     - git-bloom-generate -y rosdynrpm --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --require-os fedora rhel
     devel_branch: main
-    last_release: v2026.8.19
-    last_version: 2026.8.19
+    last_release: v2026.10.12
+    last_version: 2026.10.12
     name: wuji_description
     patches: null
     release_inc: '1'
